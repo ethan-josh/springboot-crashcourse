@@ -50,5 +50,6 @@ class ProductTest {
     void testEqualsAndHashCode() {
         assertTrue(product2.equals(product3));
         assertEquals(product2.hashCode(), product3.hashCode());
+        assertEquals(1L,1);
     }
 }
